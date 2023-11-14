@@ -56,11 +56,11 @@ Utilized 3 different machine learning models
 
 * ## BERT
 
-  BERT base model
+BERT base model
 
 
 
-Code: [BERT]()
+
 
 
 
@@ -83,10 +83,44 @@ Code: [BERT]()
 
 
 
-Code: [RoBERTa]()
+
 
 
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
 | 86.99%   |  87.78%   | 98.74% |  92.94%  |
+
+<br />
+
+* ## Feed Forward
+
+ RoBERTa base model
+
+
+
+
+
+
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.99%   |  87.78%   | 98.74% |  92.94%  |
+
+<br />
+
+* ## XLMBERT
+
+XLMBERT  model
+
+
+
+
+
+
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 86.99%   |  87.78%   | 98.74% |  92.94%  |
+
+<br />
