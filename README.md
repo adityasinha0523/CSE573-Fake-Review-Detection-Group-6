@@ -8,21 +8,9 @@
 
 
 
-# Statistical machine learning approach
+# Classification Algorithms
 
-Utilized 3 different machine learning models
-
-## Logistic Regression
-
-### TF-IDF
-
-| Accuracy | Precision | Recall | F1-Score |
-| -------- | --------- | ------ | -------- |
-| 86.74%   |   87.13%   | 99.40% |  92.86%  |
-
-
-
-
+Utilized different classification Algorithms
 
 
 ## SVM
@@ -36,17 +24,23 @@ Utilized 3 different machine learning models
 
 
 
-
-
-## Random Forest
+## Multinominal Naive Bayes
 
 ### TF-IDF
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.30%   |   86.40%  | 99.91% |  92.63%  |
+| 85.65%   |   85.66%  | 98.12% |  92.25%  |
 
 
+
+## Logistic Regression
+
+### TF-IDF
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 85.65%   |   85.66%  | 98.12% |  92.25%  |
 
 
 
