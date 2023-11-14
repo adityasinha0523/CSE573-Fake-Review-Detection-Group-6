@@ -4,7 +4,7 @@
 
 # Dataset
 
-[Amazon Data Set](https://github.com/adityasinha0523/CSE573-Fake-Review-Detection-Group-6/blob/main/DATA/fake%20reviews%20dataset.csv)
+[Amazon Data Set](https://github.com/adityasinha0523/CSE573-Fake-Review-Detection-Group-6/blob/main/DATA)
 
 
 
