@@ -58,9 +58,7 @@ Utilized 3 different machine learning models
 
 BERT base model
 
-
-
-
+The BERT (Bidirectional Encoder Representations from Transformers) base model represents a significant breakthrough in the field of natural language processing (NLP). Developed by Google, it stands out for its ability to understand the context of a word in a sentence by analyzing the words that come before and after it, a method known as bidirectional training. This is a departure from previous models that typically processed text in one direction, either left-to-right or right-to-left. BERT base consists of 12 layers (transformer blocks), 768 hidden units, and 12 attention heads, totaling 110 million parameters. This structure enables it to handle a wide range of NLP tasks, such as question answering, language inference, and sentiment analysis, with remarkable effectiveness. Its pre-training on a large corpus of text, followed by fine-tuning for specific tasks, allows it to achieve state-of-the-art results across various benchmarks.
 
 
 
