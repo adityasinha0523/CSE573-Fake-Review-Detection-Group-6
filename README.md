@@ -73,9 +73,7 @@ The BERT (Bidirectional Encoder Representations from Transformers) base model re
 
  RoBERTa base model
 
-
-
-
+RoBERTa (Robustly Optimized BERT Approach) is an enhanced version of the original BERT model, optimized for improved performance in natural language understanding tasks. Developed by Facebook AI, RoBERTa modifies key hyperparameters in BERT, such as training the model with larger mini-batches and learning rates, and training on more data for a longer period. Unlike BERT, RoBERTa removes the next sentence prediction objective and instead focuses solely on more extensive masked language modeling. This approach allows for deeper bidirectional context understanding. The base version of RoBERTa is similar in size to BERT base, with 12 layers, 768 hidden units, and 12 attention heads. However, it distinguishes itself by demonstrating superior performance on a range of benchmark NLP tasks. Its success can be attributed to these subtle yet impactful changes in training methodology and model architecture, which enable it to better capture nuances in language.
 
 
 
@@ -87,11 +85,9 @@ The BERT (Bidirectional Encoder Representations from Transformers) base model re
 
 * ## Feed Forward
 
- RoBERTa base model
+ Feed Forward base model
 
-
-
-
+A feedforward neural network is a foundational model in the field of machine learning and artificial intelligence, characterized by its simplicity and versatility. In a feedforward model, information moves in only one direction – from input nodes, through hidden layers (if any), and finally to output nodes. There are no cycles or loops in the network, distinguishing it from more complex architectures like recurrent neural networks. The "base" version of a feedforward network typically refers to a basic configuration with a single hidden layer, although the complexity can vary. Each node in the hidden layer transforms the input via a set of learned weights and a non-linear activation function, enabling the network to capture complex relationships in the data. Feedforward networks are widely used in tasks like classification and regression, serving as a fundamental building block for more advanced neural network architectures. Their straightforward structure makes them an excellent starting point for understanding neural network operations.
 
 
 
@@ -105,7 +101,7 @@ The BERT (Bidirectional Encoder Representations from Transformers) base model re
 
 XLMBERT  model
 
-
+XLMBERT (Cross-Lingual Masked Language Model using BERT) is an advanced variant of the original BERT model, designed to excel in cross-lingual understanding and tasks. It extends the capabilities of BERT to multiple languages, enabling the model to understand and process text across different linguistic contexts. This is achieved by pre-training the model on a large, diverse corpus of text spanning multiple languages. Unlike BERT, which focuses on understanding language in a largely monolingual context, XLMBERT leverages a cross-lingual masked language model training, which allows it to predict missing words in a sentence not only in one language but across different languages. This enhances its ability to understand the nuances and contexts of words in multiple languages simultaneously. XLMBERT's architecture typically follows the transformer-based design of BERT, but it is fine-tuned to handle the complexities and subtleties of multilingual processing. As a result, XLMBERT is particularly effective in tasks that require understanding and processing information across different languages, such as machine translation, multilingual classification, and cross-lingual information retrieval.
 
 
 
