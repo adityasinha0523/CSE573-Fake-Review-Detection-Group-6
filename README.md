@@ -130,11 +130,17 @@ RoBERTa (Robustly Optimized BERT Approach) is an enhanced version of the origina
 
 A feedforward neural network is a foundational model in the field of machine learning and artificial intelligence, characterized by its simplicity and versatility. In a feedforward model, information moves in only one direction – from input nodes, through hidden layers (if any), and finally to output nodes. There are no cycles or loops in the network, distinguishing it from more complex architectures like recurrent neural networks. The "base" version of a feedforward network typically refers to a basic configuration with a single hidden layer, although the complexity can vary. Each node in the hidden layer transforms the input via a set of learned weights and a non-linear activation function, enabling the network to capture complex relationships in the data. Feedforward networks are widely used in tasks like classification and regression, serving as a fundamental building block for more advanced neural network architectures. Their straightforward structure makes them an excellent starting point for understanding neural network operations.
 
-
+With 4 layers and 500 epochs:
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
 | 87.86%   |  87.86%   | 87.86% | 87.86%   |
+
+With 10 layers and 40000 epochs:
+
+| Accuracy | Precision | Recall | F1-Score |
+| -------- | --------- | ------ | -------- |
+| 93.14%   |  93.14%   | 93.14% | 93.14%   |
 
 <br />
 
