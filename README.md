@@ -30,21 +30,21 @@ Bagging with Random Forest is a powerful ensemble machine learning technique tha
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+| 75.67%   |   75.67%  | 75.67% |  75.67%  |
 
 ## Boosting with ADA Boost
 Boosting with AdaBoost (Adaptive Boosting) is a potent ensemble technique in machine learning that combines multiple weak learners, typically simple decision trees, to form a stronger predictive model. Unlike bagging methods like Random Forest, where trees are built independently, AdaBoost works by sequentially adding trees, where each subsequent tree focuses on correcting the errors made by the previous ones. Initially, all training instances are given an equal weight, but as trees are added, the algorithm increases the weights of misclassified instances, thereby forcing subsequent trees to focus more on difficult cases. This process of reweighting and adding learners continues for a predefined number of iterations, or until perfect accuracy is achieved on the training set. The final model is a weighted sum of all the weak learners, where more accurate learners have higher weights. AdaBoost is particularly known for its ability to boost the performance of simple models, its ease of implementation, and its effectiveness in reducing both bias and variance. However, it is sensitive to noisy data and outliers. Despite this, AdaBoost remains a widely used technique, especially in classification problems, due to its strong performance and simplicity.
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+| 76.41%   |   76.41%  | 76.41% |  76.41%  |
 
 ## Boosting with XGBoost
 Boosting with XGBoost (eXtreme Gradient Boosting) is a highly efficient and scalable implementation of gradient boosting, a machine learning technique used extensively for both regression and classification problems. XGBoost stands out for its ability to handle large and complex datasets with speed and accuracy. It operates by sequentially adding models, typically decision trees, where each new model attempts to correct the errors of the previous ones. This iterative refinement helps in capturing complex patterns in the data. XGBoost introduces several key innovations: a novel tree learning algorithm for handling sparse data, a more regularized model formalization to control over-fitting, and efficient use of computational resources. Furthermore, it includes features like built-in cross-validation and the capability to handle missing values, which enhance its robustness and flexibility. XGBoost has gained immense popularity in the machine learning community due to its performance in numerous machine learning competitions and its ability to efficiently process large datasets while achieving high performance. It is a go-to algorithm for many practitioners who require a powerful, flexible, and efficient boosting method.
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+| 80.75%   |   80.75%  | 80.75% |  80.75%  |
 
 # Classification Algorithms
 
@@ -58,7 +58,7 @@ Support Vector Machine (SVM) is a powerful and versatile supervised machine lear
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+| 80.99%   |   80.99%  | 80.99% |  80.99%  |
 
 
 
@@ -70,7 +70,7 @@ The Multinomial Naive Bayes model is a popular variant of the Naive Bayes algori
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+| 56.66%   |   56.66%  | 56.66% |  56.66%  |
 
 
 
@@ -81,7 +81,7 @@ Logistic Regression is a widely used statistical method for binary classificatio
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 85.65%   |   85.66%  | 98.12% |  92.25%  |
+| 76.79%   |  76.79%   | 76.79% |  76.79%  |
 
 
 
@@ -101,7 +101,7 @@ The BERT (Bidirectional Encoder Representations from Transformers) base model re
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.87%   | 87.76%    | 98.62% | 92.87%   |
+| 97.19%   | 97.19%    | 97.19% | 97.19%   |
 
 
 
@@ -134,7 +134,7 @@ A feedforward neural network is a foundational model in the field of machine lea
 
 | Accuracy | Precision | Recall | F1-Score |
 | -------- | --------- | ------ | -------- |
-| 86.99%   |  87.78%   | 98.74% |  92.94%  |
+| 87.86%   |  87.86%   | 87.86% | 87.86%   |
 
 <br />
 
