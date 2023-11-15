@@ -103,7 +103,8 @@ The BERT (Bidirectional Encoder Representations from Transformers) base model re
 | -------- | --------- | ------ | -------- |
 | 97.19%   | 97.19%    | 97.19% | 97.19%   |
 
-
+The t-SNE visualization of BERT embeddings represents high-dimensional BERT embeddings in a 2D space, aiming to preserve the local structure of the data. Each point in the plot corresponds to an embedding from the test data. The arrangement of points reflects the similarity between embeddings; points closer together likely have similar semantic meanings or contextual relationships. The color gradient (controlled by labels_test) indicates different categories or labels, showcasing potential clustering or separation among classes in the reduced 2D space.
+<img width="710" alt="Screenshot 2023-11-14 at 6 08 05 PM" src="https://github.com/adityasinha0523/CSE573-Fake-Review-Detection-Group-6/assets/78943993/f4e3e1db-ce1d-4d74-9404-f8229fd016d4">
 
 <br />
 
