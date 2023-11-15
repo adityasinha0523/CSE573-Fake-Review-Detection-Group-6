@@ -10,6 +10,8 @@ CSE573 Fake Review Detection
 <li>Lakshmi Narayana Rao Boyapati</li>
 <li>Junaita Davakumar</li>
 </ol>
+
+
 # Dataset
 
 The generated fake reviews dataset, containing 20k fake reviews and 20k real product reviews. OR = Original reviews (presumably human created and authentic); CG = Computer-generated fake reviews.
