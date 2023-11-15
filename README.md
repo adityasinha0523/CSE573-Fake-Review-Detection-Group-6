@@ -1,6 +1,13 @@
 # CSE573-Fake Review Detection Group 6
 CSE573 Fake Review Detection
 
+# Contributors
+Aditya Sinha
+Praveenaa Kulandhaivel
+Arjun Ramesh
+Haritha Athinaryanan
+Lakshmi Narayana Rao Boyapati
+Junaita Davakumar
 
 # Dataset
 
