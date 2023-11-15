@@ -2,13 +2,14 @@
 CSE573 Fake Review Detection
 
 # Contributors
-Aditya Sinha
-Praveenaa Kulandhaivel
-Arjun Ramesh
-Haritha Athinaryanan
-Lakshmi Narayana Rao Boyapati
-Junaita Davakumar
-
+<ol>
+<li>Aditya Sinha</li>
+<li>Praveenaa Kulandhaivel</li>
+<li>Arjun Ramesh</li>
+<li>Haritha Athinaryanan</li>
+<li>Lakshmi Narayana Rao Boyapati</li>
+<li>Junaita Davakumar</li>
+</ol>
 # Dataset
 
 The generated fake reviews dataset, containing 20k fake reviews and 20k real product reviews. OR = Original reviews (presumably human created and authentic); CG = Computer-generated fake reviews.
