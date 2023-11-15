@@ -4,7 +4,9 @@ CSE573 Fake Review Detection
 
 # Dataset
 
-[Amazon Data Set](https://github.com/adityasinha0523/CSE573-Fake-Review-Detection-Group-6/blob/main/DATA)
+The generated fake reviews dataset, containing 20k fake reviews and 20k real product reviews. OR = Original reviews (presumably human created and authentic); CG = Computer-generated fake reviews.
+More about the dataset:
+https://osf.io/tyue9/
 
 # Folder Structure
 In this specific folder structure, each of the three folders - 'code', 'data', and 'evaluations' - has a distinct and crucial role in organizing the components of the project. The 'code' folder is designated for all Python files, encompassing the entire programming aspect of the project. This include Python scripts for data processing, analysis, model training, and any other computational tasks. 
