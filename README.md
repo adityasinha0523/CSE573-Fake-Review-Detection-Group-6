@@ -14,6 +14,7 @@ Utilized different classification Algorithms
 
 
 ## SVM
+Support Vector Machine (SVM) is a powerful and versatile supervised machine learning model, particularly renowned for its effectiveness in classification tasks. At its core, SVM seeks to find the optimal hyperplane that best separates different classes in the feature space. The beauty of SVM lies in its ability to handle both linear and non-linear data. In linear classification, it focuses on maximizing the margin between data points of different classes, with the points closest to the hyperplane (support vectors) being crucial in defining the separation. For non-linear classification, SVM employs a technique called the kernel trick, which transforms the data into a higher-dimensional space where a linear separator is possible. This makes SVM highly adaptable to various datasets. SVM models are known for their robustness, especially in cases where the number of features exceeds the number of samples. They are widely used in applications ranging from image classification to bioinformatics, due to their ability to handle complex and high-dimensional data efficiently.
 
 ### TF-IDF
 
@@ -25,6 +26,7 @@ Utilized different classification Algorithms
 
 
 ## Multinominal Naive Bayes
+The Multinomial Naive Bayes model is a popular variant of the Naive Bayes algorithm, tailored specifically for text classification tasks, particularly in scenarios where the features (typically words) are represented as frequency counts. This model operates under the core principle of Naive Bayes, which is the assumption of independence among features. In the context of text, it means that the presence or frequency of certain words in a document is independent of the presence of other words. This simplifying assumption, while often unrealistic in real-world language, enables the model to perform surprisingly well in practice, particularly in tasks like spam detection, sentiment analysis, and topic categorization. The "multinomial" aspect refers to the statistical distribution that the model assumes for the data - it treats features as arising from a multinomial distribution, which is suitable for data that can be turned into counts, such as word counts in text. Despite its simplicity and the strong independence assumption, Multinomial Naive Bayes is known for its efficiency, ease of implementation, and particularly good performance with high-dimensional data, such as large text corpora.
 
 ### TF-IDF
 
@@ -35,6 +37,7 @@ Utilized different classification Algorithms
 
 
 ## Logistic Regression
+Logistic Regression is a widely used statistical method for binary classification problems, where the goal is to predict a binary outcome (such as yes/no, win/lose, 0/1). Despite its name, it's a linear model for classification rather than regression. At its core, Logistic Regression models the probability that a given input belongs to a particular category. It uses the logistic function (or sigmoid function) to transform its output to a probability value which can then be mapped to two or more discrete classes. This function outputs a value between 0 and 1, which is interpreted as the probability of the dependent variable being a '1' (or true, success, etc.). The model coefficients (or weights) are typically learned using methods like maximum likelihood estimation. Logistic Regression is highly interpretable, computationally inexpensive, and provides probabilities for predictions, making it a fundamental tool for binary classification problems. It's particularly useful in fields such as medical diagnosis, credit scoring, and any domain where probabilistic outcomes are of interest. Despite its simplicity, it can serve as a strong baseline for binary classification problems.
 
 ### TF-IDF
 
